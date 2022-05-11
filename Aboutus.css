@@ -1,0 +1,20 @@
+.back{
+    background-color: green;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+p{
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    margin: 0;
+    width: 500px;
+}
+img{
+    display: flex;
+    justify-content: right;
+}

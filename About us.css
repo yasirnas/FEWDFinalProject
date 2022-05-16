@@ -1,18 +1,4 @@
-h1{
-    display: flex;
-    justify-content: center;
-}
-p{
-    display: flex;
-    justify-content: left;
-    padding: 20px;
-    margin: 0;
-    width: 500px;
-}
-img{
-    display: flex;
-    justify-content: right;
-}
+
 body{
     background-color: rgb(155,224,186);
     margin: 0;
@@ -43,3 +29,5 @@ body{
 #navbar a:hover{
     color:white;
 }
+
+

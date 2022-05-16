@@ -39,9 +39,10 @@ body{
 /* I have to figure out how to not make box 3 go off the browser*/
 
 .Box1 {
-    width: 300px;
-    height: 500px;
+    width: 500px;
+    height: 300px;
     background-color: white;
+    grid-row: 1;
     grid-column: 1;
     margin-left: auto;
     margin-right: auto;
@@ -68,10 +69,11 @@ body{
 }
 
 .Box2 {
-    width: 300px;
-    height: 500px;
+    width: 500px;
+    height: 300px;
     background-color: white;
-    grid-column:2;
+    grid-row:1;
+    grid-column: 2;
     margin-left: auto;
     margin-right: auto;
     animation-name:two;
@@ -98,10 +100,11 @@ body{
 }
 
 .Box3 {
-    width: 300px;
-    height: 500px;
+    width: 500px;
+    height: 300px;
     background-color: white;
-    grid-column:3;
+    grid-row:1;
+    grid-column: 3;
     margin-left: auto;
     margin-right: auto;
     animation-name:three;

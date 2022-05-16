@@ -12,7 +12,7 @@ body{
     height: 80px;
     width: 100%;
     background-color: rgb(203,230,156);
-    display:flex;
+    display: flex;
     justify-content: space-around;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
@@ -25,11 +25,19 @@ body{
 }
 
 .Container {
-    display: grid;
+    display:grid;
     gap: 1rem;
     grid-template-rows: auto;
-    margin-top:10%
+    margin-top:10%;
 }
+
+.recycling {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 
 /* I have to figure out how to not make box 3 go off the browser*/
 
@@ -40,7 +48,7 @@ body{
     grid-column: 1;
     margin-left: auto;
     margin-right: auto;
-    animation-name: example;
+    animation-name: one;
     animation-duration: 5s;
     animation-delay: 2s;
     animation-iteration-count: 1;
@@ -52,7 +60,7 @@ body{
     top: 300px;*/
 }
 
-@keyframes example {
+@keyframes one {
     0% {background-color: white; left: 0px;}
     25% {background-color: white; left: 200px;}
     50% {background-color: white; left: 200px;}
@@ -66,7 +74,7 @@ body{
     width: 300px;
     height: 500px;
     background-color: white;
-    grid-column:2;
+    grid-column: 2;
     margin-left: auto;
     margin-right: auto;
     animation-name:two;

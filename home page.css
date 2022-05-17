@@ -39,6 +39,7 @@ body{
 
 .recycling {
     width: 300px;
+    height:190px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -50,27 +51,34 @@ body{
 
 }
 
+.Para {
+    width: 300px; 
+}
 
 
-.three {
+.three { 
     width: 300px;
     height:186px;
-    
+}
 
+.Cart {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
 /* I have to figure out how to not make box 3 go off the browser*/
 
 .Box1 {
-    width: 500px;
-    height: 300px;
+    width: 300px;
+    height: 400px;
     background-color: white;
     grid-row: 1;
     grid-column: 1;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 12px 12px 2px 1px rgba(64, 64, 82, 0.2);
+    background-color: rgb(217, 243, 243);
    /*please don't delete position: absolute;
     margin-left: auto;
     right: 525px;
@@ -79,29 +87,32 @@ body{
 
 
 .Box2 {
-    width: 500px;
-    height: 300px;
+    width: 300px;
+    height: 400px;
     background-color: white;
     grid-row:1;
     grid-column: 2;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 12px 12px 2px 1px rgba(64, 64, 82, 0.2);
+    background-color: rgb(217, 243, 243);
    /* please don't delete position:absolute;
     right: 1000px;
     top: 300px;
     background-color:white;*/
 }
 
+
 .Box3 {
-    width: 500px;
-    height: 300px;
+    width: 300px;
+    height: 400px;
     background-color: white;
     grid-row:1;
     grid-column: 3;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 12px 12px 2px 1px rgba(64, 64, 82, .2);
+    background-color: rgb(217, 243, 243);
    /* please don't delete position: absolute;
     left: 1000px;
     top:300px;*/

@@ -6,18 +6,15 @@ body{
     height: 80px;
     position: relative;
     margin:0px;
-    margin-top:px
+    margin-top: 2px
 }
 #navbar{
     height: 80px;
     width: 100%;
-<<<<<<< HEAD
     background-color: rgb(203,230,156);
     display: flex;
-=======
     background-color: rgba(203, 230, 156, 0.895);
     display:flex;
->>>>>>> 9ffa2d025475f44553177e15b58a31a921634f3f
     justify-content: space-around;
     font-family: 'Passion One';
     position: relative;
@@ -35,9 +32,8 @@ body{
 }
 
 .Container {
-    display:grid;
+    display:flex;
     gap: 1rem;
-    grid-template-rows: auto;
     margin-top:10%;
 }
 
@@ -46,6 +42,21 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.two {
+    width: 300px;
+    height: 186px
+
+}
+
+
+
+.three {
+    width: 300px;
+    height:186px;
+    
+
 }
 
 
@@ -58,27 +69,13 @@ body{
     grid-column: 1;
     margin-left: auto;
     margin-right: auto;
-    animation-name: one;
-    animation-duration: 5s;
-    animation-delay: 2s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    position:relative;
+    box-shadow: 12px 12px 2px 1px rgba(64, 64, 82, 0.2);
    /*please don't delete position: absolute;
     margin-left: auto;
     right: 525px;
     top: 300px;*/
 }
 
-@keyframes one {
-    0% {background-color: white; left: 0px;}
-    25% {background-color: white; left: 200px;}
-    50% {background-color: white; left: 200px;}
-    75% {background-color: white; left: 0px;}
-    100% {background-color: white: left: 0px;}
-    
-   
-}
 
 .Box2 {
     width: 300px;
@@ -87,27 +84,11 @@ body{
     grid-column: 2;
     margin-left: auto;
     margin-right: auto;
-    animation-name:two;
-    animation-duration: 5s;
-    animation-delay: 2s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    position: relative ;
+    box-shadow: 12px 12px 2px 1px rgba(64, 64, 82, 0.2);
    /* please don't delete position:absolute;
     right: 1000px;
     top: 300px;
     background-color:white;*/
-}
-
-@keyframes two {
-    0% {background-color: white; left: 0px;}
-    25% {background-color: white; left: 200px;} 
-    50% {background-color: white; left: 200px;}
-     75% {background-color: white; left: 0px;}
-     100% {background-color: whitecrimson: left: 0px;}
-
-  
-    
 }
 
 .Box3 {
@@ -117,21 +98,11 @@ body{
     grid-column:3;
     margin-left: auto;
     margin-right: auto;
-    animation-name:three;
-    animation-duration: 5s;
-    animation-delay: 2s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    position: relative;
+    box-shadow: 12px 12px 2px 1px rgba(64, 64, 82, .2);
    /* please don't delete position: absolute;
     left: 1000px;
     top:300px;*/
 }
 
-@keyframes three {
-    0% {background-color: white; left: 0px;}
-    25% {background-color: white; left: 200px;} 
-    50% {background-color: white; left: 200px;}
-    75% {background-color: white; left: 0px;}
-    100% {background-color: white; left: 0px;}  
-}
+
+

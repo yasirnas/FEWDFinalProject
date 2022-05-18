@@ -58,6 +58,8 @@ body{
 }
 .subtext{
     text-align: center;
+    padding: 15px;
+    font-family: 'lalezar';
 
 }
 .img{
@@ -74,26 +76,34 @@ body{
 }
 .plastic{
     background-color:rgba(255, 255, 255, 0.429);
-    /*display: flex;*/
-    height:800px;
+    box-shadow: 6px 6px 2px 1px rgba(64, 64, 82, .2);
+    height:700px;
     grid-column: 1;
-    /*justify-content: center;*/
     text-align: center;
 }
 .glass{
-    background-color:blue;
-    height:800px;
+    background-color:rgba(255, 255, 255, 0.429);
+    box-shadow: 6px 6px 2px 1px rgba(64, 64, 82, .2);
+    height:700px;
     grid-column: 2;
     text-align: center;
 }
 .electronics{
-    background-color:red;
-    height:800px;
+    background-color:rgba(255, 255, 255, 0.429);
+    box-shadow: 6px 6px 2px 1px rgba(64, 64, 82, .2);
+    height:700px;
     grid-column: 3;
     text-align: center;
 }
 .submission{
-    display:inline;
-    margin-top: 50px;
+    display: inline-block;
+    margin-left: 45%;
+    margin-bottom: 50px;
+    
+
+}
+.secondtitle{
+    font-family: 'lalezar';
+    text-align: center;
 
 }

@@ -61,11 +61,13 @@ h1{
     font-family: 'lalezar';
     text-transform: uppercase;
     font-size: 5em;
+    text-decoration: underline;
 }
 h2{
     display: flex;
     justify-content: center;
     text-align: center;
+    text-decoration: underline;
 }
 .container1{
     width: 1500px;

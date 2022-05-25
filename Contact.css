@@ -7,10 +7,13 @@ body{
     background-color: rgb(155,224,186);
     margin: 0;
     font-size: 18px;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Poppins', sans-serif;
 }
 .BoBo{
     width: 80%;
     margin: 50px auto;
+
 }
 .Batman{
 background: white;
@@ -41,4 +44,86 @@ display: flex;
 }
 #navbar a:hover{
     color:white;
+}
+.margin-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.margin-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: darkseagreen;
+    color: white
+}
+h1{
+    margin-bottom: 10px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+
+}
+.input-row .inputgroup{
+
+flex-basis: 45%;
+
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding: 5px;
+
+
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+}
+button{
+    background: #ccc;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+
+
+
+}
+.margin-left h3{
+    color: rgb(133, 185, 133);
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+.margin-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+
+
+
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td:first-child{
+    padding-top: 20px;
+
+
 }
